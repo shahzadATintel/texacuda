@@ -38,7 +38,7 @@ int main(int argc, const char **argv)
   // set number of blocks, and threads per block
 
   nblocks  = 2;
-  nthreads = 8;
+  nthreads = 0;
   nsize    = nblocks*nthreads ;
 
   // allocate memory for array
